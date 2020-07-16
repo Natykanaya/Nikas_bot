@@ -1,2 +1,2 @@
-# Nikas_bot
-for bot
+"# HabrParser_Bot"  
+"#MyFirstBot" 
