@@ -33,6 +33,4 @@ def inst():
     for i in podpis:
         print(i.get_text())
 
-
-
 inst()

@@ -52,5 +52,4 @@ def send_text(message):
 def any_message(message):
     bot.reply_to(message, format(message.text))
 
-
 bot.polling()
