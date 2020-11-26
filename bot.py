@@ -32,20 +32,20 @@ def send_text(message):
         bot.send_message(message.chat.id, 'Привет, мой создатель')
     elif message.text.lower() == 'пока':
         bot.send_message(message.chat.id, 'Прощай, создатель')
-    elif message.text.lower() == 'я тебя люблю':
-        bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAEBD9ZfEJCVXn_KSm7COrSSzFY15DU3CAACdQEAAnvAfRNZSgGUv-3IZhoE')
-    elif message.text.lower() == 'маша':
+    #elif message.text.lower() == 'я тебя люблю':
+     #   bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAEBD9ZfEJCVXn_KSm7COrSSzFY15DU3CAACdQEAAnvAfRNZSgGUv-3IZhoE')
+    elif message.text.lower() == 'фейсбук':
         bot.send_message(message.chat.id, test())
-    elif message.text.lower() == 'лина':
-        bot.send_message(message.chat.id, 'Лина, йди у сраку')
-    elif message.text.lower() == 'английские маты':
-        bot.send_message(message.chat.id, '\nAss \nFaggot\nDick sucker\nHooker')
-    elif message.text.lower() == 'русские маты':
-        bot.send_message(message.chat.id, '\nЖопа \nМудак\nЧленосос\nШлюха')
-    elif message.text.lower() == 'итальянские маты':
-        bot.send_message(message.chat.id, '\nCulo \nStronzo\nSucchiacazzi\nPuttana')
-    elif message.text.lower() == 'немецкие маты':
-        bot.send_message(message.chat.id, '\nArsch \nArschloch\nSchwanzlutscher\nHure')
+   # elif message.text.lower() == 'лина':
+     #   bot.send_message(message.chat.id, 'Лина, йди у сраку')
+    #elif message.text.lower() == 'английские маты':
+      #  bot.send_message(message.chat.id, '\nAss \nFaggot\nDick sucker\nHooker')
+   # elif message.text.lower() == 'русские маты':
+      #  bot.send_message(message.chat.id, '\nЖопа \nМудак\nЧленосос\nШлюха')
+    #elif message.text.lower() == 'итальянские маты':
+      #  bot.send_message(message.chat.id, '\nCulo \nStronzo\nSucchiacazzi\nPuttana')
+    #elif message.text.lower() == 'немецкие маты':
+       # bot.send_message(message.chat.id, '\nArsch \nArschloch\nSchwanzlutscher\nHure')
     else:
         bot.send_message(message.chat.id, 'а всё уже')
 @bot.message_handler(func=lambda message: True)
