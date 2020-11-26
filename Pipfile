@@ -9,6 +9,9 @@ verify_ssl = true
 pytelegrambotapi = "*"
 aiogram = "*"
 emoji = "*"
+telebot = "*"
+bs4 = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"

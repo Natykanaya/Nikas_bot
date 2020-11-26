@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
 from emoji import emojize
+from test import *
 TOKEN = "1316052122:AAFHsy300Q2Cj18CRtnd8na7oiP1NyJhHvM"
 bot = telebot.TeleBot(TOKEN)
 
@@ -34,7 +35,7 @@ def send_text(message):
     elif message.text.lower() == 'я тебя люблю':
         bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAEBD9ZfEJCVXn_KSm7COrSSzFY15DU3CAACdQEAAnvAfRNZSgGUv-3IZhoE')
     elif message.text.lower() == 'маша':
-        bot.send_message(message.chat.id, 'Маша, я не буду учить бота матам!!!!')
+        bot.send_message(message.chat.id, test())
     elif message.text.lower() == 'лина':
         bot.send_message(message.chat.id, 'Лина, йди у сраку')
     elif message.text.lower() == 'английские маты':
