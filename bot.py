@@ -35,7 +35,7 @@ def send_text(message):
     #elif message.text.lower() == 'я тебя люблю':
      #   bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAEBD9ZfEJCVXn_KSm7COrSSzFY15DU3CAACdQEAAnvAfRNZSgGUv-3IZhoE')
     elif message.text.lower() == 'фейсбук':
-        bot.send_message(message.chat.id, test())
+        bot.send_message(message.chat.id, fcbook())
    # elif message.text.lower() == 'лина':
      #   bot.send_message(message.chat.id, 'Лина, йди у сраку')
     #elif message.text.lower() == 'английские маты':
