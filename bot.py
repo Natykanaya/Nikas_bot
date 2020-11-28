@@ -23,6 +23,8 @@ def send_text(message):
     elif message.text.lower() == 'пока':
         bot.send_message(message.chat.id, 'Прощай, создатель')
 
+
+
     elif message.text.lower() == 'фейсбук':
         bot.send_message(message.chat.id, fcbook())
 

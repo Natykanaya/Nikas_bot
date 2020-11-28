@@ -12,6 +12,8 @@ def fcbook():
     podsp_p=podsp[2]
     return podsp_p.get_text()
 
+
+
 def inst():
     r = requests.get("https://www.instagram.com/progresstech.ua/?hl=ru")
     soup = bs(r.text, "html.parser")
