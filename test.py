@@ -22,7 +22,8 @@ def inst():
     podp=podpis["content"]
     podpp=podp.split()
 
-    print(podpp[0],podpp[1])
+    ret = podpp[0] +" "+ podpp[1]
+    return ret
     #текущее время
     #print(time.ctime())
 

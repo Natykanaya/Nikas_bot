@@ -27,7 +27,8 @@ def send_text(message):
 
     elif message.text.lower() == 'фейсбук':
         bot.send_message(message.chat.id, fcbook())
-
+    elif message.text.lower() == 'инстаграм':
+        bot.send_message(message.chat.id, inst())
     else:
         bot.send_message(message.chat.id, 'а всё уже')
 @bot.message_handler(func=lambda message: True)
