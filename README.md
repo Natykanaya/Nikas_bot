@@ -1,2 +1,2 @@
-"# HabrParser_Bot"  
+
 "#MyFirstBot" 
