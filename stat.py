@@ -6,7 +6,7 @@ from test import *
 now = datetime.datetime.now()
 TOKEN = "1452055338:AAEnZSyZqQuAT2ekDbvPx-DyO3BYKiJSFLw"
 bot = telebot.TeleBot(TOKEN)
-
+#.............
 @bot.message_handler(commands=['start'])
 def start_handler(message):
     bot.send_message(message.chat.id,'Привет :)',reply_markup=button.statistics())
